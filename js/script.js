@@ -20,7 +20,7 @@ if (navigator.serviceWorker) {
  */
 
 function calculate() {
-  buttonOnChecked = document.getElementById("age").checked
+  let inputedAge = document.getElementById("age").value
 
   if (age >= 17) {
     console.log("you can see an R movie alone")
