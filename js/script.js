@@ -19,7 +19,7 @@ if (navigator.serviceWorker) {
  * This function displays an alert.
  */
 
-function myButtonClicked() {
+function calculate() {
   buttonOnChecked = document.getElementById("flash1").checked
 
   if (age >= 17) {
