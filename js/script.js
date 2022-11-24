@@ -23,12 +23,12 @@ function calculate() {
   buttonOnChecked = document.getElementById("flash1").checked
 
   if (age >= 17) {
-    console.log ("you can see an R movie alone")
-  } else if(age >= 13) {
-      console.log("you can see a PG-13 movie alone")
-  } else if(age >= 5) {
-  console.log("you can see a g or PG movie alone")
+    console.log("you can see an R movie alone")
+  } else if (age >= 13) {
+    console.log("you can see a PG-13 movie alone")
+  } else if (age >= 5) {
+    console.log("you can see a g or PG movie alone")
   } else {
-  console.log("your too young for most things")
+    console.log("your too young for most things")
   }
 }
