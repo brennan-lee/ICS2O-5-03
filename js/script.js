@@ -27,7 +27,8 @@ function calculate() {
   } else if (inputedAge >= 13) {
     document.getElementById("anwsers").value = "you can see a PG-13 movie alone"
   } else if (inputedAge >= 5) {
-    document.getElementById("anwsers").value = "you can see a g or PG movie alone"
+    document.getElementById("anwsers").value =
+      "you can see a g or PG movie alone"
   } else {
     document.getElementById("anwsers").value = "your too young for most things"
   }
