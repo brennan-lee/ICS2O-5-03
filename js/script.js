@@ -23,12 +23,12 @@ function calculate() {
   let inputedAge = document.getElementById("age").value
 
   if (inputedAge >= 17) {
-    console.log("you can see an R movie alone")
+    document.getElementById("anwsers").value = "you can see an R movie alone"
   } else if (inputedAge >= 13) {
-    console.log("you can see a PG-13 movie alone")
+    document.getElementById("anwsers").value = "you can see a PG-13 movie alone"
   } else if (inputedAge >= 5) {
-    console.log("you can see a g or PG movie alone")
+    document.getElementById("anwsers").value = "you can see a g or PG movie alone"
   } else {
-    console.log("your too young for most things")
+    document.getElementById("anwsers").value = "your too young for most things"
   }
 }
